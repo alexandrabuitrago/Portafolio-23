@@ -12,8 +12,8 @@ html{
     scroll-behavior: smooth;
 }
 
-#inicio{
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("");
+#inicio .contenido{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://i.pinimg.com/originals/85/56/2d/85562d79ff5cd98affde0e96f9c5b4b4.jpg") ;
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -75,6 +75,10 @@ html{
     color: #FF5733;
 }
 
+.presentacion{
+    margin-top: 60px !important ;
+}
+
 #inicio .contenido .presentacion{
     max-width: 1100px;
     height: 100wh;
@@ -89,6 +93,7 @@ html{
 #inicio .contenido .presentacion .bienvenida{
     font-size: 16px;
     margin-bottom: 20px;
+    margin-top: 80px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
