@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==">
+        <link rel="stylesheet" href="css/estilos.css">
+        
+        <title>Mi Portafolio</title>
+    </head>
+
+    <body>
+
+        <!-- seccion inicio -->
+        <seccion id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <h1>AB</h1>
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="#sobremi" onclick="seleccionar(this)">ACERCA SOBRE MI</a></li>
+                                <li><a href="#estudios" onclick="seleccionar(this)">ESTUDIOS</a></li>
+                                <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                                <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                            </ul>
+                        </nav>
+                        <!-- iconos del menu responsive -->
+                        <div id="icono-nav" onclick="responsiveMenu()">
+                            <i class=""><!-- incertar icono de menu --></i>
+                        </div>
+                        <!-- iconos de las redes sociales -->
+                        <div class="redes">
+                            <a href="#"><!-- incertar icono de linkedin --></a> 
+                            <a href="#"><!-- incertar icono de github --></a> 
+                            <a href="#"><!-- incertar icono de celular--></a> 
+                            <a href="#"><!-- incertar icono de gmail --></a> 
+                        </div>
+                    </div>
+                </header>
+                <dv class="presentacion">
+                    <p class="bienvenida">Bienvenidos </p>
+                    <h2> Soy <span>Alexandra Buitrago</span>, Estudiante de Desarrollo Full Stack</h2>
+                    <p class="descripcion"> xxxx</p>
+                    <a href="#portfolio">Ir a Portafolio</a>
+                </dv>
+            </div>
+        </seccion>
+        <!-- seccion sobre mi -->
+        <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="img/foto.jpg" alt="">
+            </div>
+            <div class="sobremi">
+                <p class="titulo-seccion">Sobre Mi</p>
+                <h2>Hola, soy<span> Alexandra Buitrago</span></h2>
+                <h3>Estudiante de desarrollo full stack</h3>
+                <p>(introduzco texto de presentacion)</p>
+                <a href="#">Descargar CV</a>
+            </div>
+        </section>
+
+        <!-- seccion estudios-->
+        <section id="estudios">
+            <h3 class="titulo-estudios">MIS ESTUDIOS</h3>
+            <div class="fila">
+                
+                        <div class="fila">
+                <div class="estudios">
+                    <span class="icono"><!-- incertar icono reprecentativo del estudio--></span>
+                    <h4>Desarrollo Web Full Stack</h4> <!-- incerto estudios -->
+                    <hr>
+                    <ul class="estudios-tag">
+                        <li>MongoDB</li>
+                        <li>Express</li>
+                        <li>React</li>
+                        <li>Node</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <p> xxxx<!-- incertar presentacion --> </p>
+                </div>
+                <div class="estudios">
+                    <span class="icono"><!-- incertar icono reprecentativo del estudio--></span>
+                    <h4>Desarrollo Web Full Stack</h4> <!-- incerto estudios -->
+                    <hr>
+                    <ul class="estudios-tag">
+                        <li>MongoDB</li>
+                        <li>Express</li>
+                        <li>React</li>
+                        <li>Node</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <p> xxxx<!-- incertar presentacion --> </p>
+                </div>
+                <div class="estudios">
+                    <span class="icono"><!-- incertar icono reprecentativo del estudio--></span>
+                    <h4>Desarrollo Web Full Stack</h4> <!-- incerto estudios -->
+                    <hr>
+                    <ul class="estudios-tag">
+                        <li>MongoDB</li>
+                        <li>Express</li>
+                        <li>React</li>
+                        <li>Node</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <p> xxxx<!-- incertar presentacion --> </p>
+                </div>
+                <div class="estudios">
+                    <span class="icono"><!-- incertar icono reprecentativo del estudio--></span>
+                    <h4>Desarrollo Web Full Stack</h4> <!-- incerto estudios -->
+                    <hr>
+                    <ul class="estudios-tag">
+                        <li>MongoDB</li>
+                        <li>Express</li>
+                        <li>React</li>
+                        <li>Node</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <p> xxxx<!-- incertar presentacion --> </p>
+                </div>
+                <div class="estudios">
+                    <span class="icono"><!-- incertar icono reprecentativo del estudio--></span>
+                    <h4>Desarrollo Web Full Stack</h4> <!-- incerto estudios -->
+                    <hr>
+                    <ul class="estudios-tag">
+                        <li>MongoDB</li>
+                        <li>Express</li>
+                        <li>React</li>
+                        <li>Node</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <p> xxxx<!-- incertar presentacion --> </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- seccion portafolio -->
+        <section id="portfolio">
+            <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/" alt="">
+                    <div id="info">
+                        <h4>Descripcion del Proyecto</h4>
+                        <p>mmmsmsmmsmsms</p> <!-- proyecto 1 -->
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/" alt="">
+                    <div id="info">
+                        <h4>Descripcion del Proyecto</h4>
+                        <p>mmmsmsmmsmsms</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/" alt="">
+                    <div id="info">
+                        <h4>Descripcion del Proyecto</h4>
+                        <p>mmmsmsmmsmsms</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/" alt="">
+                    <div id="info">
+                        <h4>Descripcion del Proyecto</h4>
+                        <p>mmmsmsmmsmsms</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/" alt="">
+                    <div id="info">
+                        <h4>Descripcion del Proyecto</h4>
+                        <p>mmmsmsmmsmsms</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <div class="overlay"></div>
+                    <img src="img/" alt="">
+                    <div id="info">
+                        <h4>Descripcion del Proyecto</h4>
+                        <p>mmmsmsmmsmsms</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- seccion contacto -->
+        <seccion id="contacto">
+            <h3 class="titulo-seccion">CONTACTAME AHORA</h3>
+            <div class="contenedor-form">
+                <form action="">
+                    <div class="fila mitad">
+                        <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                        <input type="text" placeholder="Correo Electronico" class="input-mitad">
+                    </div>
+                    <div class="fila">
+                        <input type="text" placeholder="Cuentame tu Tema..." class="input-full">
+                    </div>
+                    <div class="fila">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Escribe Tu Mensaje" class="input-full"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                </form>
+            </div>
+        </seccion>
+
+        <!-- seccion footer -->
+        <footer>
+            <p>Todos los derechos reservados -2023</p>
+            <div class="redes">
+                <a href="#"><!-- incertar icono de linkedin --></a> 
+                <a href="#"><!-- incertar icono de github --></a> 
+                <a href="#"><!-- incertar icono de celular--></a> 
+                <a href="#"><!-- incertar icono de gmail --></a> 
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
